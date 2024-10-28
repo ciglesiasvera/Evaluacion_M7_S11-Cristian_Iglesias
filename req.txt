@@ -1,0 +1,33 @@
+CUE: REVISANDO LAS APLICACIONES PREINSTALADAS
+
+DRILLING: OBTENER PARÁMETROS PASADOS POR URL EN DJANGO
+
+Para resolver este ejercicio, anteriormente debe haber revisado la lectura y los videos 
+del CUE: 
+
+Revisando las Aplicaciones Preinstaladas.
+
+EJERCICIO:
+
+Partiendo del modelo creado en los Rebound y Drilling del CUE anterior, desarrolla una 
+aplicación que gestione la creación de un usuario reutilizando la aplicación 
+pre-instalada de autenticación. Para registrarse debe tener el siguiente 
+enlace: http://localhost:8000/crearusuario/
+
+_________________________________________________________________________________________
+
+Registro
+          
+Username: 
+Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only. Email:              Password:
+
+    * Your password can't be too similar to your other personal information.
+    * Your password must contain at least 8 characters.
+    * Your password can't be a commonly used password.
+    * Your password can't be entirely numeric.
+
+Password confirmation:                              ____________
+Enter the same password as above, for verification. | Registro |
+                                                    ------------
+
+Si tienes actualmente una cuenta, inicie su sesión login
